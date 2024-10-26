@@ -3,8 +3,8 @@
 int main() {
      int x,y;
     printf("Enter the numbers you want to add:");
-    scanf("%d %d",&x,&y);
-    if (x<0 && y<0 ){
+    scanf("%d %d",&x,&y);   // Entering the numbers
+    if (x<0 && y<0 ){    // Checking which kinds of numbers are those
         x=(-x);
         y=(-y);
         for(int i=0; i<y; i++)
